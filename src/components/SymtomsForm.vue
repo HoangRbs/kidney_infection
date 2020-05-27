@@ -260,7 +260,7 @@ export default {
         // show loading... at result
         this.loading = true;
 
-        let public_url = "https://kidney-infection-backend.herokuapp.com/";
+        let public_url = "https://kidney-infection-backend.herokuapp.com";
 
         axios({
           method: "POST",

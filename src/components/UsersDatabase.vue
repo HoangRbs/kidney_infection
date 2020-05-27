@@ -54,7 +54,7 @@ export default {
   },
   beforeMount() {
 
-    let public_url = "https://kidney-infection-backend.herokuapp.com/"
+    let public_url = "https://kidney-infection-backend.herokuapp.com"
 
     axios({
       method: "GET",
