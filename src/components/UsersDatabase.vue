@@ -53,9 +53,12 @@ export default {
     };
   },
   beforeMount() {
+
+    let public_url = "https://kidney-infection-backend.herokuapp.com/"
+
     axios({
       method: "GET",
-      url: "http://localhost:3000/api/getPatientsDatabase",
+      url: `${public_url}/api/getPatientsDatabase`,
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json;charset=UTF-8"

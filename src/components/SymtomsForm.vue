@@ -260,9 +260,11 @@ export default {
         // show loading... at result
         this.loading = true;
 
+        let public_url = "https://kidney-infection-backend.herokuapp.com/";
+
         axios({
           method: "POST",
-          url: "http://localhost:3000/api/getUserResult",
+          url: `${public_url}/api/getUserResult`,
           headers: {
             Accept: "application/json",
             "Content-Type": "application/json;charset=UTF-8"
